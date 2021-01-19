@@ -11,7 +11,7 @@ body {
 
 .headerTitle {
     font-family: 'Work Sans', sans-serif;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .headerTitle a {
@@ -30,7 +30,7 @@ ul {
 
 nav ul li {
     font-family: 'Work Sans', sans-serif;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 ul li a {
@@ -74,24 +74,22 @@ ul li a {
     padding-top: 50px;
 }
 
-figure {
-    overflow: hidden;
-}
-
-figure img {
-	transform: scale(1);
-    transition: .3s ease-in-out;
-}
-
-figure:hover img {
-	transform: scale(1.3);
-}
-
 .projectName {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 3vw;
+    font-size: 1.5rem;
     color: #222222; 
+}
+
+.iconA {
+    position: absolute;
+    top: 650px;
+    left: -50px;
+    opacity: 0;
+}
+
+.containerIconA:hover .iconA {
+    opacity: 1;    
 }
 
 .textIndex {
@@ -103,9 +101,31 @@ figure:hover img {
     margin: 50px;
 }
 
+.iconLaFranca {
+    position: absolute;
+    top: 580px;
+    left: 100px;
+    opacity: 0;
+}
+
+.containerIconLaFranca:hover .iconLaFranca {
+    opacity: 1;    
+}
+
 .indexContact {
     padding: 200px; 
     text-align: center;
+}
+
+.iconColonia {
+    position: absolute;
+    top: -50px;
+    left: 60px;
+    opacity: 0;
+}
+
+.containerIconColonia:hover .iconColonia {
+    opacity: 1;    
 }
 
 h4 a {
@@ -147,7 +167,7 @@ h4 a:hover {
 
 .bioBodyTxt {
     grid-area: txt;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #222222;
@@ -200,28 +220,29 @@ h4 a:hover {
 label {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.5rem;
     color: #222222;
 }
 
 .formButton {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #222222;
     text-decoration: underline;
 }
 
 .vl3 {
     border-left: 3px solid #222222;
-    height: 400px;
+    height: 500px;
     left: 50%;
 }
 
 .contactList {
-    font-family: 'Open Sans', sans-serif;
+    padding-top: 380px;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.5rem;
     color: #222222;
     text-decoration: underline;
 }
@@ -254,6 +275,10 @@ label {
 	color: #F4F4F4 !important;
 }
 
+.navbar-dark {
+    color: #F4F4F4;
+}
+
 .projectTitle {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
@@ -272,7 +297,7 @@ label {
     text-decoration: none;
     text-align: center;
     color: #F4F4F4;
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .projectList li a:hover {
@@ -288,6 +313,7 @@ label {
     font-weight: 300;
     font-size: 13vw;
     color: #F4F4F4;
+    padding-bottom: 50px;
 }
 
 .tallerContainer {
@@ -303,11 +329,40 @@ label {
     color: #F4F4F4;
     font-size: 5vw;
     position: relative;
-    top: 35vw;
+    top: 25vw;
 }
 
-.talleresImg {
-    padding: 100px 0;
+.iconEnsayo {
+    position: relative;
+    top: 840px;
+    right: 200px;
+    opacity: 0;
+}
+
+.containerIconEnsayo:hover .iconEnsayo {
+    opacity: 1;    
+}
+
+.iconCreativa {
+    position: relative;
+    top: 840px;
+    left: 200px;
+    opacity: 0;
+}
+
+.containerIconCreativa:hover .iconCreativa {
+    opacity: 1;    
+}
+
+.iconParticulares {
+    position: relative;
+    top: 840px;
+    right: 200px;
+    opacity: 0;
+}
+
+.containerIconParticulares:hover .iconParticulares {
+    opacity: 1;    
 }
 
 .talleresContact {
@@ -317,12 +372,12 @@ label {
 }
 
 footer {
-    margin: 25px 50px;
+    margin: 25px 0px;
 }
 
 .igFooter {
     font-family: 'Work Sans', sans-serif;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .igFooter a {
@@ -337,13 +392,13 @@ footer {
 
 .development {
     font-family: 'Work Sans', sans-serif;
-    font-size: 30px;
+    font-size: 2rem;
     color: #222222;
 }
 
 .igFooterWhite {
     font-family: 'Work Sans', sans-serif;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .igFooterWhite a {
@@ -358,6 +413,6 @@ footer {
 
 .developmentWhite {
     font-family: 'Work Sans', sans-serif;
-    font-size: 30px;
+    font-size: 2rem;
     color: #F4F4F4;
 }

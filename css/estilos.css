@@ -12,6 +12,7 @@ body {
 .headerTitle {
     font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
+    font-weight: 300;
 }
 
 .headerTitle a {
@@ -31,6 +32,7 @@ ul {
 nav ul li {
     font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
+    font-weight: 300;
 }
 
 ul li a {
@@ -112,7 +114,7 @@ ul li a {
     opacity: 1;    
 }
 
-.indexContact {
+.contact {
     padding: 200px; 
     text-align: center;
 }
@@ -140,58 +142,45 @@ h4 a:hover {
     color: #222222;
 }
 
-.bioFather {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto/*1fr 1fr 1fr 1fr 1fr 1fr 1fr*/;
-    grid-template-areas: 
-    "bHl bHl bHl . ."
-    "txt txt txt . ."
-    "txt txt txt . vl2"
-    "txt txt txt . vl2"
-    ". . . . vl2"
-    ". . pic pic pic"
-    ". . . . ."
-    ". contact contact contact .";
-    margin: 50px;
-}
-
-.bioHeadline {
-    grid-area: bHl;
+.bioTitle {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 4vw;
+    font-size: 2rem;
     color: #222222;
     text-decoration: underline;
 }
 
-.bioBodyTxt {
-    grid-area: txt;
+.bioOutstanding {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 4.5vw;
     color: #222222;
+}
+
+.bioText {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #222222;
+}
+
+.bioBold {
+    font-weight: 500;
 }
 
 .vl2 {
     grid-area: vl2;
     border-left: 3px solid #222222;
-    height: 500px;
+    height: 320px;
     left: 50%;
 }
 
-.bioPic {
-    grid-area: pic;
+.containerBio {
+    padding-top: 50px;
 }
 
 .bioPic img {
     max-width: 80%;
-    padding: 50px 0;
-}
-
-.bioContact {
-    grid-area: contact; 
-    margin: 200px 0;
 }
 
 .contactBody {
@@ -258,6 +247,7 @@ label {
 .headerTitleWhite {
     font-family: 'Work Sans', sans-serif;
     font-size: 30px;
+    font-weight: 300;
 }
 
 .headerTitleWhite a {
@@ -272,7 +262,8 @@ label {
 
 .aWhite {
 	text-decoration: none;
-	color: #F4F4F4 !important;
+    color: #F4F4F4 !important;
+    font-weight: 300;
 }
 
 .navbar-dark {
@@ -296,6 +287,9 @@ label {
     list-style-type: none;
     text-decoration: none;
     text-align: center;
+}
+
+.projectList li a {
     color: #F4F4F4;
     font-size: 3rem;
 }
@@ -365,10 +359,40 @@ label {
     opacity: 1;    
 }
 
-.talleresContact {
+.WhiteContact {
     padding: 200px; 
     text-align: center;
     color: #222222;
+}
+
+.mutanteTitle {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #F4F4F4;
+    text-decoration: underline;
+}
+
+.mutanteText1 {
+    padding-top: 250px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #F4F4F4;
+}
+
+.mutanteOutstanding {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 7rem;
+    color: #F4F4F4;
+}
+
+.mutanteText {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #F4F4F4;
 }
 
 footer {
@@ -378,6 +402,7 @@ footer {
 .igFooter {
     font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
+    font-weight: 300;
 }
 
 .igFooter a {
@@ -393,12 +418,14 @@ footer {
 .development {
     font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
+    font-weight: 300;
     color: #222222;
 }
 
 .igFooterWhite {
     font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
+    font-weight: 300;
 }
 
 .igFooterWhite a {
@@ -414,5 +441,6 @@ footer {
 .developmentWhite {
     font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
+    font-weight: 300;
     color: #F4F4F4;
 }

@@ -1,463 +1,627 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: #F4F4F4;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.headerTitle {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 2rem;
-    font-weight: 300;
-}
-
-.headerTitle a {
-    text-decoration: none;
-	color: #222222;
-}
-
-.headerTitle a:hover {
-    text-decoration: none;
-	color: #222222;
-}
-
-ul {
-	list-style-type: none;
-}
-
-nav ul li {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 2rem;
-    font-weight: 300;
-}
-
-ul li a {
-	text-decoration: none;
-	color: #222222;
-}
-
-.active {
-    text-decoration: underline;
-}
-
-.mainIndex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-}
-
-.mainTitle {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 13vw;
-    color: #222222;
-    display: inline-block;
-    position: relative;
-    top: 100px;
-}
-
-.mainImage {
-    max-width: 70%;
-}
-
-.vl {
-    border-left: 3px solid #222222;
-    height: 250px;
-    left: 50%;
-}
-
-.imgIndex {
-    padding-top: 50px;
-}
-
-.projectName {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1.5rem;
-    color: #222222; 
-}
-
-.iconA {
-    position: absolute;
-    top: 650px;
-    left: -50px;
-    opacity: 0;
-}
-
-.containerIconA:hover .iconA {
-    opacity: 1;    
-}
-
-.textIndex {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 5vw;
-    color: #222222;
-    text-decoration: underline;
-    margin: 50px;
-}
-
-.iconLaFranca {
-    position: absolute;
-    top: 580px;
-    left: 100px;
-    opacity: 0;
-}
-
-.containerIconLaFranca:hover .iconLaFranca {
-    opacity: 1;    
-}
-
-.contact {
-    padding: 200px; 
-    text-align: center;
-}
-
-.iconColonia {
-    position: absolute;
-    top: -50px;
-    left: 60px;
-    opacity: 0;
-}
-
-.containerIconColonia:hover .iconColonia {
-    opacity: 1;    
-}
-
-h4 a {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 13vw;
-    color: #222222;
-    text-decoration: underline;
-}
-
-h4 a:hover {
-    color: #222222;
-}
-
-.bioTitle {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 2rem;
-    color: #222222;
-    text-decoration: underline;
-}
-
-.bioOutstanding {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-    font-size: 4.5vw;
-    color: #222222;
-}
-
-.bioText {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1.5rem;
-    color: #222222;
-}
-
-.bioBold {
-    font-weight: 500;
-}
-
-.vl2 {
-    grid-area: vl2;
-    border-left: 3px solid #222222;
-    height: 320px;
-    left: 50%;
-}
-
-.containerBio {
-    padding-top: 50px;
-}
-
-.bioPic img {
-    max-width: 80%;
-}
-
-.contactBody {
-    background-color: #DBC79F;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.contactMail {
-    padding: 30px 0;
-}
-
-.contactMail a {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 7vw;
-    color: #222222;
-    text-decoration: none;
-}
-
-.contactMail a:hover {
-    color: #222222;
-    text-decoration: none;
-}
-
-label {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: #222222;
-}
-
-.formButton {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: #222222;
-    text-decoration: underline;
-}
-
-.vl3 {
-    border-left: 3px solid #222222;
-    height: 500px;
-    left: 50%;
-}
-
-.contactList {
-    padding-top: 380px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: #222222;
-    text-decoration: underline;
-}
-
-.contactList a:hover {
-    color: #222222;
-}
-
-.projectBody {
-    background-color: #222222;
-}
-
-.headerTitleWhite {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 300;
-}
-
-.headerTitleWhite a {
-    text-decoration: none;
-	color:  #F4F4F4;
-}
-
-.headerTitleWhite a:hover {
-    text-decoration: none;
-	color: #F4F4F4;
-}
-
-.aWhite {
-	text-decoration: none;
-    color: #F4F4F4 !important;
-    font-weight: 300;
-}
-
-.navbar-dark {
-    color: #F4F4F4;
-}
-
-.projectTitle {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 13vw;
-    color: #F4F4F4;
-}
-
-.vl4 {
-    border-left: 3px solid #F4F4F4;
-    height: 300px;
-    left: 50%;
-}
-
-.projectList {
-    list-style-type: none;
-    text-decoration: none;
-    text-align: center;
-}
-
-.projectList li a {
-    color: #F4F4F4;
-    font-size: 3rem;
-}
-
-.projectList li a:hover {
-	color: #F4F4F4;
-}
-
-.talleresBody {
-    background-color: #A4B494;
-}
-
-.talleresTitle {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 13vw;
-    color: #F4F4F4;
-    padding-bottom: 50px;
-}
-
-.tallerContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.tallerName {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    color: #F4F4F4;
-    font-size: 5vw;
-    position: relative;
-    top: 25vw;
-}
-
-.iconEnsayo {
-    position: relative;
-    top: 840px;
-    right: 200px;
-    opacity: 0;
-}
-
-.containerIconEnsayo:hover .iconEnsayo {
-    opacity: 1;    
-}
-
-.iconCreativa {
-    position: relative;
-    top: 840px;
-    left: 200px;
-    opacity: 0;
-}
-
-.containerIconCreativa:hover .iconCreativa {
-    opacity: 1;    
-}
-
-.iconParticulares {
-    position: relative;
-    top: 840px;
-    right: 200px;
-    opacity: 0;
-}
-
-.containerIconParticulares:hover .iconParticulares {
-    opacity: 1;    
-}
-
-.WhiteContact {
-    padding: 200px; 
-    text-align: center;
-    color: #222222;
-}
-
-.mutanteTitle {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 2rem;
-    color: #F4F4F4;
-    text-decoration: underline;
-}
-
-.containerMutante1 {
-    padding: 50px 0px;
-}
-
-.containerMutante2 {
-    padding: 150px 0px;
-}
-
-.containerMutante3 {
-    padding-bottom: 50px;
-}
-
-.mutanteText {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1.6rem;
-    color: #F4F4F4;
-}
-
-.mutanteText1 {
-    padding-top: 250px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1.6rem;
-    color: #F4F4F4;
-}
-
-.mutanteOutstanding {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-    font-size: 6rem;
-    line-height: 1.2;
-    color: #F4F4F4;
-}
-
-.mutanteOutstanding2 {
-    padding-top: 200px;
-}
-
-footer {
-    margin: 25px 0px;
-}
-
-.igFooter {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 2rem;
-    font-weight: 300;
-}
-
-.igFooter a {
-    text-decoration: none;
-    color: #222222;
-}
-
-.igFooter a:hover {
-    text-decoration: none;
-    color: #222222;
-}
-
-.development {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 2rem;
-    font-weight: 300;
-    color: #222222;
-}
-
-.igFooterWhite {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 2rem;
-    font-weight: 300;
-}
-
-.igFooterWhite a {
-    text-decoration: none;
-    color: #F4F4F4;
-}
-
-.igFooterWhite a:hover {
-    text-decoration: none;
-    color: #F4F4F4;
-}
+@media only screen and (min-width: 320px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: #F4F4F4;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .headerTitle {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    
+    .headerTitle a {
+        text-decoration: none;
+        color: #222222;
+    }
+    
+    .headerTitle a:hover {
+        text-decoration: none;
+        color: #222222;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    nav ul li {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: #222222;
+    }
+    
+    .active {
+        text-decoration: underline;
+    }
+    
+    .mainIndex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    
+    .mainTitle {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 10vw;
+        color: #222222;
+        display: inline-block;
+        position: relative;
+        top: 30px;
+    }
+    
+    .mainImage {
+        max-width: 100%;
+    }
+    
+    .vl {
+        border-left: 3px solid #222222;
+        height: 250px;
+        left: 50%;
+    }
+    
+    .imgIndex {
+        padding-top: 50px;
+    }
+    
+    .projectName {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: #222222; 
+    }
+    
+    .iconA {
+        position: absolute;
+        top: 300px;
+        left: -10px;
+        opacity: 0;
+        width: 10%;
+    }
+
+    .containerIconA:hover .iconA {
+        opacity: 1;    
+    }
+    
+    .textIndex {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 5vw;
+        color: #222222;
+        text-decoration: underline;
+        margin: 50px;
+    }
+    
+    .iconLaFranca {
+        position: absolute;
+        top: -20px;
+        left: 80px;
+        opacity: 0;
+        width: 10%;
+    }
+    
+    .containerIconLaFranca:hover .iconLaFranca {
+        opacity: 1;    
+    }
+    
+    .contact {
+        margin: 200px; 
+        text-align: center;
+    }
+
+    .contactIndexCircleGrey {
+        position: absolute;
+        top: 3050px;
+        right: 80px;
+        width: 20%;
+        opacity: 0;
+    }
+
+    .contact:hover .contactIndexCircleGrey {
+        opacity: 1;
+    }
+
+    .iconColonia {
+        position: absolute;
+        top: -20px;
+        left: 50px;
+        opacity: 0;
+        width: 10%;
+    }
+    
+    .containerIconColonia:hover .iconColonia {
+        opacity: 1;    
+    }
+    
+    h4 a {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 13vw;
+        color: #222222;
+        text-decoration: underline;
+    }
+    
+    h4 a:hover {
+        color: #222222;
+    }
+    
+    .bioTitle {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        color: #222222;
+        text-decoration: underline;
+    }
+    
+    .bioOutstanding {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 4.5vw;
+        color: #222222;
+    }
+    
+    .bioText {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: #222222;
+    }
+    
+    .bioBold {
+        font-weight: 500;
+    }
+    
+    .vl2 {
+        grid-area: vl2;
+        border-left: 3px solid #222222;
+        height: 320px;
+        left: 50%;
+    }
+    
+    .containerBio {
+        padding-top: 50px;
+    }
+    
+    .bioPic img {
+        max-width: 80%;
+    }
+
+    .contactBioCircleGrey {
+        position: absolute;
+        top: 2485px;
+        right: 80px;
+        width: 20%;
+        opacity: 0;
+    }
+
+    .contact:hover .contactBioCircleGrey {
+        opacity: 1;
+    }
+    
+    .contactBody {
+        background-color: #DBC79F;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .contactMail {
+        padding: 30px 0;
+    }
+    
+    .contactMail a {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 6vw;
+        color: #222222;
+        text-decoration: none;
+    }
+    
+    .contactMail a:hover {
+        color: #222222;
+        text-decoration: none;
+    }
+    
+    label {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: #222222;
+    }
+    
+    .formButton {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: #222222;
+        text-decoration: underline;
+    }
+    
+    .vl3 {
+        border-left: 3px solid #222222;
+        height: 500px;
+        left: 50%;
+    }
+    
+    .contactList {
+        padding-top: 380px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: #222222;
+        text-decoration: underline;
+    }
+    
+    .contactList a:hover {
+        color: #222222;
+    }
+    
+    .projectBody {
+        background-color: #222222;
+    }
+    
+    .headerTitleWhite {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    
+    .headerTitleWhite a {
+        text-decoration: none;
+        color:  #F4F4F4;
+    }
+    
+    .headerTitleWhite a:hover {
+        text-decoration: none;
+        color: #F4F4F4;
+    }
+    
+    .aWhite {
+        text-decoration: none;
+        color: #F4F4F4 !important;
+        font-weight: 300;
+    }
+    
+    .navbar-dark {
+        color: #F4F4F4;
+    }
+    
+    .projectTitle {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 13vw;
+        color: #F4F4F4;
+    }
+    
+    .vl4 {
+        border-left: 3px solid #F4F4F4;
+        height: 300px;
+        left: 50%;
+    }
+    
+    .projectList {
+        list-style-type: none;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .projectList li a {
+        color: #F4F4F4;
+        font-size: 3rem;
+    }
+    
+    .projectList li a:hover {
+        color: #F4F4F4;
+    }
+    
+    .talleresBody {
+        background-color: #A4B494;
+    }
+    
+    .talleresTitle {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 13vw;
+        color: #F4F4F4;
+        padding-bottom: 0px;
+    }
+    
+    .tallerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tallerName {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        color: #F4F4F4;
+        font-size: 8vw;
+        position: relative;
+        top: 45vw;
+    }
+    
+    .iconEnsayo {
+        position: relative;
+        top: 485px;
+        right: 150px;
+        opacity: 0;
+        width: 10%;
+    }
+    
+    .containerIconEnsayo:hover .iconEnsayo {
+        opacity: 1;    
+    }
+    
+    .iconCreativa {
+        position: relative;
+        top: 485px;
+        left: 150px;
+        opacity: 0;
+        width: 10%;
+    }
+    
+    .containerIconCreativa:hover .iconCreativa {
+        opacity: 1;    
+    }
+    
+    .iconParticulares {
+        position: relative;
+        top: 485px;
+        right: 150px;
+        opacity: 0;
+        width: 10%;
+    }
+    
+    .containerIconParticulares:hover .iconParticulares {
+        opacity: 1;    
+    }
+    
+    .WhiteContact {
+        padding: 200px; 
+        text-align: center;
+        color: #222222;
+    }
+
+    .contactTalleresCircleWhite {
+        position: absolute;
+        top: 1875px;
+        right: 80px;
+        width: 20%;
+        opacity: 0;
+    }
+
+    .WhiteContact:hover .contactTalleresCircleWhite {
+        opacity: 1;
+    }
+    
+    .mutanteTitle {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        color: #F4F4F4;
+        text-decoration: underline;
+    }
+    
+    .containerMutante1 {
+        padding: 50px 0px;
+    }
+    
+    .containerMutante2 {
+        padding: 150px 0px;
+    }
+    
+    .containerMutante3 {
+        padding-bottom: 50px;
+    }
+    
+    .mutanteText {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 1.6rem;
+        color: #F4F4F4;
+    }
+    
+    .mutanteText1 {
+        padding-top: 250px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 1.6rem;
+        color: #F4F4F4;
+    }
+    
+    .mutanteOutstanding {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 4rem;
+        line-height: 1.2;
+        color: #F4F4F4;
+    }
+    
+    .mutanteOutstanding2 {
+        padding-top: 200px;
+    }
+    
+    footer {
+        margin: 25px 0px;
+    }
+    
+    .igFooter {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    
+    .igFooter a {
+        text-decoration: none;
+        color: #222222;
+    }
+    
+    .igFooter a:hover {
+        text-decoration: none;
+        color: #222222;
+    }
+    
+    .development {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+        color: #222222;
+    }
+    
+    .igFooterWhite {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    
+    .igFooterWhite a {
+        text-decoration: none;
+        color: #F4F4F4;
+    }
+    
+    .igFooterWhite a:hover {
+        text-decoration: none;
+        color: #F4F4F4;
+    }
+    
+    .developmentWhite {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+        color: #F4F4F4;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .mainIndex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+    
+    .mainTitle {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 13vw;
+        color: #222222;
+        display: inline-block;
+        position: relative;
+        top: 100px;
+    }
+    
+    .mainImage {
+        max-width: 70%;
+    }
+
+    .iconA {
+        position: absolute;
+        top: 650px;
+        left: -50px;
+        opacity: 0;
+        width: 15%;
+    }
+
+    .iconLaFranca {
+        position: absolute;
+        top: 620px;
+        left: -600px;
+        opacity: 0;
+        width: 15%;
+    }
+
+    .iconColonia {
+        position: absolute;
+        top: -50px;
+        left: 60px;
+        opacity: 0;
+        width: 15%;
+    }
+
+    .contactIndexCircleGrey {
+        position: absolute;
+        top: 5265px;
+        right: 250px;
+        opacity: 0;
+    }
+
+    .contactBioCircleGrey {
+        position: absolute;
+        top: 1450px;
+        right: 250px;
+    }
+
+    .contactMail a {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 7vw;
+        color: #222222;
+        text-decoration: none;
+    }
+
+    .talleresTitle {
+        padding-bottom: 50px;
+    }
+
+    .tallerName {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        color: #F4F4F4;
+        font-size: 5vw;
+        position: relative;
+        top: 25vw;
+    }
+    
+    .iconEnsayo {
+        position: relative;
+        top: 840px;
+        right: 200px;
+        opacity: 0;
+        width: 15%;
+    }
+
+    .iconCreativa {
+        position: relative;
+        top: 840px;
+        left: 200px;
+        opacity: 0;
+        width: 15%;
+    }
+        
+    .iconParticulares {
+        position: relative;
+        top: 840px;
+        right: 200px;
+        opacity: 0;
+        width: 15%;
+    }
+
+    .contactTalleresCircleWhite {
+        position: absolute;
+        top: 2385px;
+        right: 250px;
+    }
+
+    .mutanteOutstanding {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
 
-.developmentWhite {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 2rem;
-    font-weight: 300;
-    color: #F4F4F4;
 }

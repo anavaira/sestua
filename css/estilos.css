@@ -385,6 +385,13 @@ label {
     padding-bottom: 50px;
 }
 
+.mutanteText {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #F4F4F4;
+}
+
 .mutanteText1 {
     padding-top: 250px;
     font-family: 'Work Sans', sans-serif;
@@ -401,11 +408,8 @@ label {
     color: #F4F4F4;
 }
 
-.mutanteText {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1.6rem;
-    color: #F4F4F4;
+.mutanteOutstanding2 {
+    padding-top: 200px;
 }
 
 footer {

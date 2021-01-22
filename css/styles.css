@@ -1,0 +1,421 @@
+@media only screen and (min-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0; }
+    * body {
+      background-color: #F4F4F4;
+      margin-left: 30px;
+      margin-right: 30px; }
+      * body .headerTitle {
+        font-family: "Work Sans", sans-serif;
+        font-size: 2rem;
+        font-weight: 300; }
+        * body .headerTitle a {
+          text-decoration: none;
+          color: #222222; }
+          * body .headerTitle a a:hover {
+            text-decoration: none;
+            color: #222222; }
+      * body ul {
+        list-style-type: none; }
+        * body ul li {
+          font-family: "Work Sans", sans-serif;
+          font-size: 2rem;
+          font-weight: 300; }
+          * body ul li a {
+            text-decoration: none;
+            color: #222222; }
+      * body .active {
+        text-decoration: underline; }
+      * body .mainIndex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px; }
+      * body .mainTitle {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 10vw;
+        color: #222222;
+        display: inline-block;
+        position: relative;
+        top: 30px; }
+      * body .mainImage {
+        max-width: 100%; }
+      * body .vl {
+        border-left: 3px solid #222222;
+        height: 250px;
+        left: 50%; }
+      * body .imgIndex {
+        padding-top: 50px; }
+      * body .projectName {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: #222222; }
+      * body .iconA {
+        position: absolute;
+        top: 300px;
+        left: -10px;
+        opacity: 0;
+        width: 10%; }
+      * body .containerIconA:hover .iconA {
+        opacity: 1; }
+      * body .textIndex {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 5vw;
+        color: #222222;
+        text-decoration: underline;
+        margin: 50px; }
+      * body .iconLaFranca {
+        position: absolute;
+        top: -20px;
+        left: 80px;
+        opacity: 0;
+        width: 10%; }
+      * body .containerIconLaFranca:hover .iconLaFranca {
+        opacity: 1; }
+      * body .contact {
+        margin: 200px;
+        text-align: center; }
+        * body .contact a {
+          color: #222222; }
+      * body .contactIndexCircleGrey {
+        position: absolute;
+        top: 3050px;
+        right: 80px;
+        width: 20%;
+        opacity: 0; }
+      * body .contact:hover .contactIndexCircleGrey {
+        opacity: 1; }
+      * body .iconColonia {
+        position: absolute;
+        top: -20px;
+        left: 50px;
+        opacity: 0;
+        width: 10%; }
+      * body .containerIconColonia:hover .iconColonia {
+        opacity: 1; }
+      * body h4 a {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 13vw;
+        color: #222222;
+        text-decoration: underline; }
+        * body h4 a a:hover {
+          color: #222222; }
+      * body .bioTitle {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        color: #222222;
+        text-decoration: underline; }
+      * body .bioOutstanding {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 4.5vw;
+        color: #222222; }
+      * body .bioText {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: #222222; }
+      * body .bioBold {
+        font-weight: 500; }
+      * body .vl2 {
+        grid-area: vl2;
+        border-left: 3px solid #222222;
+        height: 320px;
+        left: 50%; }
+      * body .containerBio {
+        padding-top: 50px; }
+      * body .bioPic img {
+        max-width: 80%; }
+      * body .contactBioCircleGrey {
+        position: absolute;
+        top: 2485px;
+        right: 80px;
+        width: 20%;
+        opacity: 0; }
+      * body .contact:hover .contactBioCircleGrey {
+        opacity: 1; }
+      * body .contactMail {
+        padding: 30px 0; }
+        * body .contactMail a {
+          font-family: "Work Sans", sans-serif;
+          font-weight: 300;
+          font-size: 6vw;
+          color: #222222;
+          text-decoration: none; }
+          * body .contactMail a a:hover {
+            color: #222222;
+            text-decoration: none; }
+      * body label {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: #222222; }
+      * body .formButton {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: #222222;
+        text-decoration: underline; }
+      * body .vl3 {
+        border-left: 3px solid #222222;
+        height: 500px;
+        left: 50%; }
+      * body .contactList {
+        padding-top: 380px;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: #222222;
+        text-decoration: underline; }
+        * body .contactList a:hover {
+          color: #222222; }
+      * body .headerTitleWhite {
+        font-family: "Work Sans", sans-serif;
+        font-size: 30px;
+        font-weight: 300; }
+        * body .headerTitleWhite a {
+          text-decoration: none;
+          color: #F4F4F4; }
+          * body .headerTitleWhite a a:hover {
+            text-decoration: none;
+            color: #F4F4F4; }
+      * body .aWhite {
+        text-decoration: none;
+        color: #F4F4F4 !important;
+        font-weight: 300; }
+      * body .navbar-dark {
+        color: #F4F4F4; }
+      * body .projectTitle {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 13vw;
+        color: #F4F4F4; }
+      * body .vl4 {
+        border-left: 3px solid #F4F4F4;
+        height: 300px;
+        left: 50%; }
+      * body .projectList {
+        list-style-type: none;
+        text-decoration: none;
+        text-align: center; }
+        * body .projectList li a {
+          color: #F4F4F4;
+          font-size: 3rem; }
+          * body .projectList li a a:hover {
+            color: #F4F4F4; }
+      * body .talleresTitle {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 13vw;
+        color: #F4F4F4;
+        padding-bottom: 0px; }
+      * body .tallerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+      * body .tallerName {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        color: #F4F4F4;
+        font-size: 8vw;
+        position: relative;
+        top: 45vw; }
+      * body .iconEnsayo {
+        position: relative;
+        top: 485px;
+        right: 150px;
+        opacity: 0;
+        width: 10%; }
+      * body .containerIconEnsayo:hover .iconEnsayo {
+        opacity: 1; }
+      * body .iconCreativa {
+        position: relative;
+        top: 485px;
+        left: 150px;
+        opacity: 0;
+        width: 10%; }
+      * body .containerIconCreativa:hover .iconCreativa {
+        opacity: 1; }
+      * body .iconParticulares {
+        position: relative;
+        top: 485px;
+        right: 150px;
+        opacity: 0;
+        width: 10%; }
+      * body .containerIconParticulares:hover .iconParticulares {
+        opacity: 1; }
+      * body .WhiteContact {
+        margin: 200px;
+        text-align: center;
+        color: #222222; }
+        * body .WhiteContact a {
+          color: #222222; }
+      * body .contactTalleresCircleWhite {
+        position: absolute;
+        top: 1875px;
+        right: 80px;
+        width: 20%;
+        opacity: 0; }
+      * body .WhiteContact:hover .contactTalleresCircleWhite {
+        opacity: 1; }
+      * body .mutanteTitle {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        color: #F4F4F4;
+        text-decoration: underline; }
+      * body .containerMutante1 {
+        padding: 50px 0px; }
+      * body .containerMutante2 {
+        padding: 150px 0px; }
+      * body .containerMutante3 {
+        padding-bottom: 50px; }
+      * body .mutanteText {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 1.6rem;
+        color: #F4F4F4; }
+      * body .mutanteText1 {
+        padding-top: 250px;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 1.6rem;
+        color: #F4F4F4; }
+      * body .mutanteOutstanding {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 4rem;
+        line-height: 1.2;
+        color: #F4F4F4; }
+      * body .mutanteOutstanding2 {
+        padding-top: 200px; }
+      * body footer {
+        margin: 25px 0px; }
+      * body .igFooter {
+        font-family: "Work Sans", sans-serif;
+        font-size: 2rem;
+        font-weight: 300; }
+        * body .igFooter a {
+          text-decoration: none;
+          color: #222222; }
+          * body .igFooter a a:hover {
+            text-decoration: none;
+            color: #222222; }
+      * body .development {
+        font-family: "Work Sans", sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+        color: #222222; }
+      * body .igFooterWhite {
+        font-family: "Work Sans", sans-serif;
+        font-size: 2rem;
+        font-weight: 300; }
+        * body .igFooterWhite a {
+          text-decoration: none;
+          color: #F4F4F4; }
+          * body .igFooterWhite a a:hover {
+            text-decoration: none;
+            color: #F4F4F4; }
+      * body .developmentWhite {
+        font-family: "Work Sans", sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+        color: #F4F4F4; }
+    * .contactBody {
+      background-color: #DBC79F; }
+    * .projectBody {
+      background-color: #222222; }
+    * .talleresBody {
+      background-color: #A4B494; } }
+
+@media only screen and (min-width: 600px) {
+  * body .mainIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px; }
+  * body .mainTitle {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 13vw;
+    color: #222222;
+    display: inline-block;
+    position: relative;
+    top: 100px; }
+  * body .mainImage {
+    max-width: 70%; }
+  * body .iconA {
+    position: absolute;
+    top: 650px;
+    left: -50px;
+    opacity: 0;
+    width: 15%; }
+  * body .iconLaFranca {
+    position: absolute;
+    top: 620px;
+    left: -600px;
+    opacity: 0;
+    width: 15%; }
+  * body .iconColonia {
+    position: absolute;
+    top: -50px;
+    left: 60px;
+    opacity: 0;
+    width: 15%; }
+  * body .contactIndexCircleGrey {
+    position: absolute;
+    top: 5265px;
+    right: 250px;
+    opacity: 0; }
+  * body .contactBioCircleGrey {
+    position: absolute;
+    top: 1450px;
+    right: 250px; }
+  * body .contactMail a {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 7vw;
+    color: #222222;
+    text-decoration: none; }
+  * body .talleresTitle {
+    padding-bottom: 50px; }
+  * body .tallerName {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    color: #F4F4F4;
+    font-size: 5vw;
+    position: relative;
+    top: 25vw; }
+  * body .iconEnsayo {
+    position: relative;
+    top: 840px;
+    right: 200px;
+    opacity: 0;
+    width: 15%; }
+  * body .iconCreativa {
+    position: relative;
+    top: 840px;
+    left: 200px;
+    opacity: 0;
+    width: 15%; }
+  * body .iconParticulares {
+    position: relative;
+    top: 840px;
+    right: 200px;
+    opacity: 0;
+    width: 15%; }
+  * body .contactTalleresCircleWhite {
+    position: absolute;
+    top: 2385px;
+    right: 250px; }
+  * body .mutanteOutstanding {
+    font-size: 6rem; } }

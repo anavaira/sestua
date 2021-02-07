@@ -34,7 +34,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 10px; }
+        margin: 10px;
+        text-align: center; }
       * body .mainTitle {
         font-family: "Work Sans", sans-serif;
         font-weight: 300;
@@ -86,7 +87,7 @@
           color: #222222; }
       * body .contactIndexCircleGrey {
         position: absolute;
-        top: 3050px;
+        top: 2970px;
         right: 80px;
         width: 20%;
         opacity: 0; }
@@ -139,7 +140,7 @@
         max-width: 80%; }
       * body .contactBioCircleGrey {
         position: absolute;
-        top: 2485px;
+        top: 2540px;
         right: 80px;
         width: 20%;
         opacity: 0; }
@@ -264,7 +265,7 @@
           color: #222222; }
       * body .contactTalleresCircleWhite {
         position: absolute;
-        top: 1875px;
+        top: 1815px;
         right: 80px;
         width: 20%;
         opacity: 0; }
@@ -503,7 +504,7 @@
     width: 15%; }
   * body .contactIndexCircleGrey {
     position: absolute;
-    top: 5265px;
+    top: 5155px;
     right: 250px;
     opacity: 0; }
   * body .contactBioCircleGrey {

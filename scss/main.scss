@@ -144,12 +144,14 @@
                 font-size: 2rem;
                 color: $black;
                 text-decoration: underline;
+                margin-left: 15px;
             }
             .bioOutstanding {
                 font-family: $typo;
                 font-weight: 400;
                 font-size: 4.5vw;
                 color: $black;
+                margin-left: 11px;
             }
             .bioText {
                 font-family: $typo;
@@ -344,6 +346,7 @@
                 font-size: 2rem;
                 color: $white;
                 text-decoration: underline;
+                margin-left: 15px;
             }
             .containerMutante1 {
                 padding: 50px 0px;
@@ -393,6 +396,7 @@
                 font-size: 2rem;
                 color: $white;
                 text-decoration: underline;
+                margin-left: 15px;
             }
             .containerLaFranca1 {
                 padding-top: 50px;
@@ -409,6 +413,7 @@
                 font-size: 2rem;
                 color: $black;
                 text-decoration: underline;
+                margin-left: 15px;
             }
             .containerA1 {
                 padding-top: 50px;
@@ -425,6 +430,7 @@
                 font-size: 2rem;
                 color: $black;
                 text-decoration: underline;
+                margin-left: 15px;
             }
             .containerColonia1 {
                 padding-top: 50px;
@@ -448,8 +454,88 @@
             .containerColonia7 {
                 padding-top: 251px;
             }
+            .bajoLaPiedraTitle {
+                font-family: $typo;
+                font-weight: 300;
+                font-size: 2rem;
+                color: $white;
+                text-decoration: underline;
+                margin-left: 15px;
+            }
+            .containerBajoLaPiedra1 {
+                padding: 50px 0px;
+            }
+            .containerBajoLaPiedra2 {
+                padding-top: 0px;
+            }
+            .containerBajoLaPiedra3 {
+                padding-top: 600px;
+            }
+            .containerBajoLaPiedra4 {
+                padding-top: 100px;
+            }
+            .containerBajoLaPiedra5 {
+                padding-top: 400px;
+            }
+            .containerBajoLaPiedra6 {
+                padding-top: 500px;
+            }
+            .bajoLaPiedraText {
+                font-family: $typo;
+                font-weight: 300;
+                font-size: 1.6rem;
+                color: $white;
+                text-align: end;
+            }
+            .bajoLaPiedraText1 {
+                font-family: $typo;
+                font-weight: 300;
+                font-size: 1.6rem;
+                color: $white;
+            }
+            .bajoLaPiedraText2 {
+                font-family: $typo;
+                font-weight: 300;
+                font-size: 1.6rem;
+                color: $white;
+                padding-top: 150px;
+            }
+            .bajoLaPiedraQuote {
+                font-family: $typo;
+                font-weight: 400;
+                font-size: 3rem;
+                line-height: 1.2;
+                color: $white;
+            }
+            .returnProyectos {
+                font-family: $typo;
+                font-weight: 400;
+                padding-top: 150px;
+                padding-bottom: 150px;
+                text-align: center;
+                color: $white;
+                font-size: 2rem;
+                text-decoration: underline;
+                a {
+                    color: $white;
+                }
+            }
+            .returnProyectosWhite {
+                font-family: $typo;
+                font-weight: 400;
+                padding-top: 150px;
+                padding-bottom: 150px; 
+                text-align: center;
+                color: $black;
+                font-size: 3rem;
+                text-decoration: underline;
+                a {
+                    color: $black;
+                }
+            }
             footer {
-                margin: 25px 0px;
+                margin-left: 25px;
+                margin-right: 25px;
             }
             .igFooter {
                 font-family: $typo;
@@ -469,6 +555,9 @@
                 font-size: 2rem;
                 font-weight: 300;
                 color: $black;
+                a {
+                    color: $black;
+                }
             }
             .igFooterWhite {
                 font-family: $typo;
@@ -488,6 +577,9 @@
                 font-size: 2rem;
                 font-weight: 300;
                 color: $white;
+                a {
+                    color: $white;
+                }
             }
         }
         .contactBody {

@@ -113,12 +113,14 @@
         font-weight: 300;
         font-size: 2rem;
         color: #222222;
-        text-decoration: underline; }
+        text-decoration: underline;
+        margin-left: 15px; }
       * body .bioOutstanding {
         font-family: "Work Sans", sans-serif;
         font-weight: 400;
         font-size: 4.5vw;
-        color: #222222; }
+        color: #222222;
+        margin-left: 11px; }
       * body .bioText {
         font-family: "Work Sans", sans-serif;
         font-weight: 300;
@@ -273,7 +275,8 @@
         font-weight: 300;
         font-size: 2rem;
         color: #F4F4F4;
-        text-decoration: underline; }
+        text-decoration: underline;
+        margin-left: 15px; }
       * body .containerMutante1 {
         padding: 50px 0px; }
       * body .containerMutante2 {
@@ -312,7 +315,8 @@
         font-weight: 300;
         font-size: 2rem;
         color: #F4F4F4;
-        text-decoration: underline; }
+        text-decoration: underline;
+        margin-left: 15px; }
       * body .containerLaFranca1 {
         padding-top: 50px; }
       * body .containerLaFranca2 {
@@ -324,7 +328,8 @@
         font-weight: 300;
         font-size: 2rem;
         color: #222222;
-        text-decoration: underline; }
+        text-decoration: underline;
+        margin-left: 15px; }
       * body .containerA1 {
         padding-top: 50px; }
       * body .containerA2 {
@@ -336,7 +341,8 @@
         font-weight: 300;
         font-size: 2rem;
         color: #222222;
-        text-decoration: underline; }
+        text-decoration: underline;
+        margin-left: 15px; }
       * body .containerColonia1 {
         padding-top: 50px;
         padding-bottom: 100px; }
@@ -352,8 +358,73 @@
         padding-top: 700px; }
       * body .containerColonia7 {
         padding-top: 251px; }
+      * body .bajoLaPiedraTitle {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        color: #F4F4F4;
+        text-decoration: underline;
+        margin-left: 15px; }
+      * body .containerBajoLaPiedra1 {
+        padding: 50px 0px; }
+      * body .containerBajoLaPiedra2 {
+        padding-top: 0px; }
+      * body .containerBajoLaPiedra3 {
+        padding-top: 600px; }
+      * body .containerBajoLaPiedra4 {
+        padding-top: 100px; }
+      * body .containerBajoLaPiedra5 {
+        padding-top: 400px; }
+      * body .containerBajoLaPiedra6 {
+        padding-top: 500px; }
+      * body .bajoLaPiedraText {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 1.6rem;
+        color: #F4F4F4;
+        text-align: end; }
+      * body .bajoLaPiedraText1 {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 1.6rem;
+        color: #F4F4F4; }
+      * body .bajoLaPiedraText2 {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        font-size: 1.6rem;
+        color: #F4F4F4;
+        padding-top: 150px; }
+      * body .bajoLaPiedraQuote {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 1.2;
+        color: #F4F4F4; }
+      * body .returnProyectos {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        text-align: center;
+        color: #F4F4F4;
+        font-size: 2rem;
+        text-decoration: underline; }
+        * body .returnProyectos a {
+          color: #F4F4F4; }
+      * body .returnProyectosWhite {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        text-align: center;
+        color: #222222;
+        font-size: 3rem;
+        text-decoration: underline; }
+        * body .returnProyectosWhite a {
+          color: #222222; }
       * body footer {
-        margin: 25px 0px; }
+        margin-left: 25px;
+        margin-right: 25px; }
       * body .igFooter {
         font-family: "Work Sans", sans-serif;
         font-size: 2rem;
@@ -369,6 +440,8 @@
         font-size: 2rem;
         font-weight: 300;
         color: #222222; }
+        * body .development a {
+          color: #222222; }
       * body .igFooterWhite {
         font-family: "Work Sans", sans-serif;
         font-size: 2rem;
@@ -384,6 +457,8 @@
         font-size: 2rem;
         font-weight: 300;
         color: #F4F4F4; }
+        * body .developmentWhite a {
+          color: #F4F4F4; }
     * .contactBody {
       background-color: #DBC79F; }
     * .projectBody {
